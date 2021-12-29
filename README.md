@@ -1,2 +1,2 @@
 # repository
-test repository
+main repository
