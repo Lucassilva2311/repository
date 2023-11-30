@@ -1,0 +1,234 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    background: rgb(84, 74, 255);
+    background: linear-gradient(90deg, rgb(20, 137, 190) 0%, rgb(110, 202, 233) 57%, rgba(214, 246, 252, 1) 100%);
+    box-shadow: 4px -7px 25px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho img {
+    max-width: 32px;
+    max-height: 32px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+.cabecalho img:hover {
+    transition: 0.02s;
+    cursor: pointer;
+    background-color: #95d5ff;
+
+}
+
+#ocultar{
+    display: none;
+}
+
+.usuario {
+    display: none;
+    border-radius: 2px;
+    position: absolute;
+    left: 83%;
+    text-align: center;
+    padding: 2% 2% 4% 2%;
+}
+
+.usuario p, .usuario a, .perfil p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 4px;
+    margin: 10px 25px;
+}
+
+.voltar {
+    background-color: white;
+    padding: 8px;
+    border-radius: 50px;
+    max-width: 30px;
+    position: fixed;
+    margin: 20% 0 0 1%;
+
+}
+
+.voltar:hover {
+    transform: scale(1.05);
+    transition: 0.02s;
+    cursor: pointer;
+    background-color: #95d5ff;
+}
+
+header h1 {
+    font-size: 50px;
+    padding: 1%;
+}
+
+form,
+.usuario, .perfil {
+    background: rgb(241, 240, 255);
+    background: linear-gradient(175deg, rgb(242, 242, 250) 0%, rgb(245, 245, 252) 100%);
+    box-shadow: 0px 11px 35px -11px rgba(6, 6, 7, 0.5);
+}
+
+form h1,
+.visualizar h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+form label,
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+.login {
+    border-radius: 2px;
+    margin: 4% 25%;
+    padding: 1%;
+    text-align: center;
+}
+
+.formulario {
+    border-radius: 1px;
+    text-align: center;
+}
+
+.formulario form {
+    margin: 5% 35%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login img {
+    max-height: 250px;
+}
+
+.login img:hover {
+    transform: scale(1.05);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.loginImagens {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+#img1 p,
+#img2 p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-bottom: 25px;
+}
+
+.botao {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 5px;
+    background-color: #387dff;
+    color: #ffffff;
+    min-width: 200px;
+    max-width: 200px;
+
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #7dabff;
+}
+
+#agenda {
+    font-size: 20px;
+    color: green;
+    margin: 10px 0;
+}
+
+.tabela {
+    text-align: center;
+    width: 80%;
+    margin: 0 150px;
+}
+
+.tabela img:hover {
+    cursor: pointer;
+}
+
+.tabela th {
+    font-size: 25px;
+    font-style: bold;
+    padding-bottom: 10px;
+    background-color: #456391;
+    color: white;
+}
+
+.tabela tr:nth-child(odd) {
+    background-color: #b0ccff;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #dce7fd;
+}
+
+.tabela td {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.visualizar h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.perfil{
+    margin: 5% 20%;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.perfil img{
+    max-width: 200px;
+    margin: 15px 25px 10px 25px;
+
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.rodape img {
+    max-height: 30px;
+}

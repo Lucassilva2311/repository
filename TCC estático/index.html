@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Health App</title>
+</head>
+
+<header class="cabecalho">
+    <h1>Health-App</h1>
+</header>
+
+<body>
+    <script>
+        function clicaPaciente() {
+            window.location.href = "./loginP.html";
+        }
+        function clicaMedico() {
+            window.location.href = "./loginM.html";
+        }
+    </script>
+    <form class="login">
+        <h1>Fazer Login como:</h1> <br>
+        <div class="loginImagens">
+            <div id="img1">
+                <p>Paciente</p>
+                <img src="./images/paciente.jpg" alt="paciente" onclick="clicaPaciente()">
+            </div>
+            <div id="img2">
+                <p>Médico</p>
+                <img src="./images/medico.jpg" alt="medico" onclick="clicaMedico()">
+            </div>
+        </div>
+    </form>
+</body>
+
+<footer class="rodape">
+    <p>&copyLucas Silva Sousa</p>
+    <div class="itens-footer">
+        <a href="www.linkedin.com"><img src="./icones/linkedin.png" alt="linkedin"></a>
+        <a href="www.facebook.com"><img src="./icones/facebook.png" alt="facebook"></a>
+        <a href="www.twitter.com"><img src="./icones/twitter.png" alt="twitter"></a>
+    </div>
+</footer>
+
+</html>

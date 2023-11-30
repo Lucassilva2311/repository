@@ -1,0 +1,69 @@
+@media(max-width: 414px){
+
+    html{
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .cabecalho{
+        padding: 10px 0 10px 0;
+    }
+    .cabecalho h1{
+        font-size: 25px;
+    }
+
+    .login{
+        margin: 0;
+        padding-bottom: 100%;
+        background: rgb(241, 240, 255, .5);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .login p {
+        position: absolute;
+        padding: 0%;
+        right: 21%;
+        margin-top: 20%;
+    }
+
+    .loginImagens{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .login img:hover{
+        transform: none;
+    }
+
+    .login img{
+        padding: 0;
+        margin: 10px 0 0 10px;
+        width: 50%;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(245, 245, 255) 35%, rgb(234, 250, 253) 100%);
+        padding-right: 100%;
+    }
+
+    .login img:hover{
+        background: linear-gradient(0deg, rgba(157,170,251,1) 0%, rgba(122,122,255,1) 35%, rgba(75,109,255,1) 100%);
+    }
+
+    .formulario form{
+        margin: 5%;
+        padding: 30px;
+    }
+
+    .formulario input{
+        margin-bottom: 10px;
+    }
+
+    .usuario{
+        
+    }
+
+    .rodape{
+        margin-top: 0;
+    }
+}

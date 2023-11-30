@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Agendar</title>
+</head>
+
+<header class="cabecalho">
+    <h1>Health-App</h1>
+    <img src="./icones/user.png" alt="usuario" id="mostrar">
+</header>
+
+<body>
+
+    <div class="usuario">
+        <a href="perfilP.html">Ver Perfil</a>
+        <a href="loginP.html">Sair</a>
+    </div>
+
+
+<body>
+
+    <script>
+        function agendar() {
+            document.querySelector('#agenda').innerHTML = '<p>Consulta agendada com sucesso!</p>';
+        }
+    </script>
+
+    <a href="./paginaInicialP.html"><img src="./icones/return-104-64.png" alt="voltar" class="voltar"></a>
+
+    <div class="formulario">
+        <form action="">
+            <h1>Agendar Consultas</h1>
+            <label for="especialidade">Especialidade</label>
+            <input type="text" name="especialidade"> <br>
+            <label for="medico">Médico</label>
+            <input type="text" name="médico"> <br>
+            <label for="data">Data</label>
+            <input type="date" name="data"> <br>
+            <label for="hora">Hora</label>
+            <input type="hour" name="hora"> <br>
+            <input class="botao" type="button" value="Agendar" onclick="agendar()">
+            <div id="agenda"></div>
+        </form>
+    </div>
+
+</body>
+
+<script src="./js/script.js" src></script>
+
+<footer class="rodape">
+    <p>&copyLucas Silva Sousa</p>
+    <div class="itens-footer">
+        <a href="www.linkedin.com"><img src="./icones/linkedin.png" alt="linkedin"></a>
+        <a href="www.facebook.com"><img src="./icones/facebook.png" alt="facebook"></a>
+        <a href="www.twitter.com"><img src="./icones/twitter.png" alt="twitter"></a>
+    </div>
+</footer>
