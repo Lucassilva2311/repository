@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos-mobile.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="icon" href="imagens/secador.png">
+        <title>Salão da Te - Agendar Horário</title>
+    </head>
+    <header class="cabecalho">
+        <h1 class="logo">Salão da Te</h1>
+        <p>Agende seu horário</p>
+    </header>
+    <body>
+        <div class="menu">
+            <a href="index.html"><p>Home</p></a>
+            <a href="horario.html"><p style="color:#cf588a; font-weight: bold; transform: scale(1.2);">Agendar horário</p></a>
+        </div>
+        <div class="page">
+            <form class="agendar">
+                <h2>Agende seu Horário:</h2>
+                <label for="nome">Nome <input type="text" class="formulario" placeholder="Seu Nome" required autofocus></label><br>
+                <label for="email">Email <input type="text" class="formulario" placeholder="SeuEmail@Email.com" required></label><br>
+                <label for="dia">Dia <input type="date" class="formulario" placeholder="01/01/2000"></label><br>
+                <label for="hora">Hora <input type="time" class="formulario" placeholder="00:00"></label><br>
+                <p>Serviço</p>
+                    <div class="servico">
+                        <label for="servico">Cabelo</label>
+                        <input type="checkbox" name="servico" value="cabelo"><br>
+                        <label for="servico">Manicure</label>
+                        <input type="checkbox" name="servico" value="manicure"><br>
+                        <label for="servico">Pedicure</label>
+                        <input type="checkbox" name="servico" value="pedicure"><br>
+                        <label for="servico">Sombrancelha</label>
+                        <input type="checkbox" name="servico" value="sombrancelha">
+                    </div><br>
+                <label for="message">Alguma Observação?</label>
+                <textarea name="message" rows="15" cols="80" placeholder="Alguma Observação?"></textarea><br>
+                    <div class="botao">
+                        <input type="submit" value="Agendar Horário">
+                        <input type="button" value="Horários Disponíveis">
+                    </div>
+                </form>
+
+        </div>
+    </body>
+    <footer>&copy Lucas Silva Sousa</footer>
+</html>
