@@ -1,0 +1,67 @@
+@media(max-width: 414px){
+
+    body{
+        background-image: url(../Imagens/wallpaper.jpg);
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 15px;
+    }
+
+    h1, h2, h3{
+        line-height: 25px;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .texto{
+        margin: 2%;
+        background-color: #f7f5f5ec;
+        padding: 2%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .pagina{
+        padding: 0 0 0 20px;
+        width: 90%;
+    }
+    
+    .texto img{
+        max-width: 100%;
+    }
+    
+    img, table{
+        position: relative;
+        left: 0%;
+    }
+
+    ul{
+        padding: 0 0 0 20px;
+    }
+    td{
+        padding-right: 0px;
+    }
+
+    th{
+        padding-right: 0px;
+    }
+
+    table{
+        text-align: center;
+    }
+
+}
