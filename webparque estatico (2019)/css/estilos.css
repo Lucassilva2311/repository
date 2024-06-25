@@ -1,0 +1,132 @@
+html {
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+  font-size: 110%
+}
+
+strong {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+a:visited{
+  color: #135a16;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #adde1b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cabecalho {
+  background-color: #72b075;
+  padding:  5px 50px 5px 0px ; /*top, right , bottom, left*/
+  box-shadow: 0px 0px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho input {
+  border-radius: 5px;
+  padding: 5px 100px 5px 0px;
+  background-color: #a1c9a3;
+  border: 1px solid #a1c9a3;
+}
+
+.menu-busca {
+
+  display: flex;
+  float: left;
+  padding: 40px 50px 100% 50px;
+  margin: 15px 15px 15px 15px;
+  background-color: white;
+  display:inline-block;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  line-height: 1;
+}
+
+.menu-busca p,
+input{
+  margin: 0px 0px 8px 0px;
+}
+
+.menu-busca h1 {
+    font-size: 120%;
+    color: #135a16;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 30px;
+}
+
+.parques{
+  display: flex;
+  flex-flow:column;
+  margin: 15px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  justify-content: flex-end;
+}
+.links-parques:hover{
+  border: 2px solid #adde1b;
+  transform: scale(1.03);
+  box-shadow: inset 0 0 0 99999px rgba(225,225,225,.6);
+  transition: 0.1s all;
+}
+
+.links-parques{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  margin-bottom: 20px;
+  border: 1px solid #bbbbbb;
+  border-radius: 10px;
+  max-height:150px;
+  max-width:100%;
+  width: auto;
+  height: auto;
+}
+
+.links-parques img{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.links-parques h1{
+  font-size: 120%;
+  color: #135a16;
+  padding: 5px 0px 2px 0px;
+  text-align: left;
+}
+
+.links-parques p{
+  font-size: 90%;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 50px 0 5px;
+  text-align: left;
+}
+
+footer {
+    background-color: #4b734c;
+    color: white;
+    margin-top: 10px;
+    padding:  15px 50px 15px 0px ; /*top, right , bottom, left*/
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    display: flex;
+    text-align: right;
+    align-items: right;
+    justify-content: flex-end;
+    clear: left;
+}
