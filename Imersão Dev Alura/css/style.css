@@ -9,8 +9,8 @@ header {
     text-align: center;
 }
 
-body {
-    background-image: url("../imagens/wallpaper.jpg");
+ body {
+    background-image: url("../imagens/moedas.jpg");
     background-color: rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,7 @@ body {
 
 #calcula:hover {
     cursor: pointer;
+    background-color: #fffefb;
 }
 
 #real {
