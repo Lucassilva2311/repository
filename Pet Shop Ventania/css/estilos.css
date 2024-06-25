@@ -1,0 +1,58 @@
+html{
+    font-family: sans-serif;
+    color: #382e26;
+}
+
+body{
+    background-image: url(../imagens/wallpaper.jpg);
+    background-size: cover;
+}
+
+p, a, .menu li{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header, footer{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: #e9e1db;
+    height: 4rem;
+}
+
+footer{
+    background-color: #251e19;
+    color: white;
+    height: 2rem;
+}
+
+.principal{
+    background-color: #fffbf8;
+    text-align: justify;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #251e19 1px solid;
+}
+
+.sobre{
+    text-align: center;
+    line-height: 2rem;
+}
+
