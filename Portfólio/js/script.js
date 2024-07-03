@@ -1,16 +1,21 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
+const esconde = document.querySelector('.esconder-menu')
+const mostra = document.querySelector('.mostrar-menu')
+const menu = document.querySelector('.menu-lateral')
+const portfolio = document.querySelector('.portfolio')
+const experiencia = document.querySelector('.experiencia')
 
-let idx = 0;
-
-function carrossel() {
-    idx++;
-
-    if (idx > img.length - 1) {
-        idx = 0;
-    }
-
-    imgs.style.transform = 'translateX(${-idx * 500})px)';
+function mostraMenu() {
+    esconde.style.display = "none"
+    mostra.style.display = "block"
+    menu.style.cssText = "left: -19%"
+    portfolio.style.cssText  = "width: 90%"
+    //experiencia.style.cssText  = "width: 90%"
 }
 
-setInterval(carrossel, 1800);
+function escondeMenu() {
+    esconde.style.display = "block"
+    mostra.style.display = "none"
+    menu.style.cssText = "left: 0"
+    portfolio.style.cssText  = "width: 70%"
+    //experiencia.style.cssText  = "width: 70%"
+}

@@ -1,13 +1,16 @@
 html{
     font-family: sans-serif;
     color: #2c2c50;
-    hyphens: auto;
     text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 body{
     background-image: url(../imagens/wallpaper.jpg);
 }
+
 
 p, a, .menu li{
     font-size: 18px;
@@ -59,6 +62,32 @@ h1, h2, h3, h4{
     cursor: pointer;
     background-color: #6e7dfd;
 }
+.menu-lateral a:hover{
+    text-decoration-line: underline;
+}
+
+.mostrar-menu{
+    display: none;
+    transform: scaleX(-1);
+}
+
+.esconder-menu{
+    display: block;
+}
+
+.esconder-menu, .mostrar-menu{
+    max-width: 25px;
+    background-color: #f3f3f315;
+    padding: 100% .5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.esconder-menu:hover, .mostrar-menu:hover{
+    cursor: pointer;
+    background-color: #f3f3f324;
+}
 
 .menu a, .menu li, .menu a:visited, .menu li:visited{
     color: white;
@@ -100,7 +129,7 @@ h1, h2, h3, h4{
 }
 
 .contato{
-    height: 250px;
+    height: 320px;
     margin: 0;
 }
 
@@ -121,13 +150,16 @@ h1, h2, h3, h4{
     justify-content: space-between;
     align-items: flex-start;
     padding: 5% 2%;
-    margin: 5% 1%;
+    margin: 5% 1% 5% 1% ; /*top right bottom left*/
+    float: right;
+    width: 70%;
     background-color: #f3f3f3;
 }
 
 .texto-lateral{
     flex-direction: column;
     width: 90%;
+    padding-left: 5%;
 }
 
 .projeto-item{
@@ -158,9 +190,13 @@ h1, h2, h3, h4{
 }
 
 .menu-lateral{
+    position: fixed;
     width: 20%;
-    padding-top: 10%;
-    margin: 0 1rem;
+    height: 100%;
+    color: white;
+    background-color: #464646;
+    padding-top: 4rem;
+    padding-left: 1.5em;
     line-height: 2.5em;
 }
 
@@ -169,7 +205,7 @@ h1, h2, h3, h4{
 }
 
 .menu-lateral a, .menu-lateral a:visited{
-    color: #2c2c50;
+    color: white;
 }
 
 .sobre-texto{
@@ -197,4 +233,10 @@ h1, h2, h3, h4{
 footer{
     padding: .8em 0;
     text-indent: 2em;
+    bottom: 0;
+    width: 100%;
+}
+
+.opções1, .opções2{
+    display: none;
 }
